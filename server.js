@@ -1,7 +1,5 @@
 const express = require('express')
-const expressGraphQL = require('express-graphql')
-const RootQueryType = require ("./root.query.type");
-const RootMutationType = require ("./root.mutatation.type");
+const expressGraphQL = require('express-graphql');
 const schema = require ("./schema.graph");
 
 const {
